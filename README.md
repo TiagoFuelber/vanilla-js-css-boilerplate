@@ -10,5 +10,5 @@ This boilerplate uses:
 - OO Javascript
 
 **CSS**
--BEM
--SMACSS
+- BEM
+- SMACSS
