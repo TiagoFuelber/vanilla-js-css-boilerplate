@@ -1,0 +1,28 @@
+{
+  "name": "vanilla-js-css-boilerplate",
+  "version": "1.0.0",
+  "description": "Front-end boilerplate with vanilla JS and CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoFuelber/vanilla-js-css-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiagoFuelber/vanilla-js-css-boilerplate/issues"
+  },
+  "homepage": "https://github.com/TiagoFuelber/vanilla-js-css-boilerplate#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-cli": "^1.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
