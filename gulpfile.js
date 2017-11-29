@@ -9,13 +9,14 @@ gulp.task('minify-css', () => {
     
     return gulp.src(['css/*.css'])
         .pipe(sourcemaps.init())
-        .pipe(cleanCSS())
-        .pipe(concat('app.css'))
+        .pipe(cleanCSS({
+            processImport: false
+        }))
         .pipe(rename({
             suffix: '.min'
         }))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('dist/css'));
+        .pipe(gulp.dest('dist/css/'));
 });
 
 // gulp.task('uglify-js', () => {
