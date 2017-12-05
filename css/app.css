@@ -1,3 +1,3 @@
-@import 'font-faces.css';
-@import 'default.css';
-@import 'body.css'; 
+@import '../dist/css/font-faces.min.css';
+@import '../dist/css/default.min.css';
+@import '../dist/css/body.min.css'; 
